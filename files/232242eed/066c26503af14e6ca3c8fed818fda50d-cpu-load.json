@@ -1,0 +1,68 @@
+{"sysstat": {
+	"hosts": [
+		{
+			"nodename": "test-cpu",
+			"sysname": "Linux",
+			"release": "4.18.0",
+			"machine": "",
+			"number-of-cpus": 4,
+			"file-date": "2023-06-23",
+			"file-utc-time": "09:02:13",
+			"statistics": [
+				{
+					"timestamp": {"date": "2023-06-23", "time": "09:02:15", "utc": 1, "interval": 2},
+					"cpu-load": [
+						{"cpu": "all", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 50.00, "steal": 0.00, "idle": 50.00},
+						{"cpu": "1", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00},
+						{"cpu": "2", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00},
+						{"cpu": "3", "user": 0.00, "nice": 0.01, "system": 0.00, "iowait": 0.01, "steal": 0.00, "idle": 99.98},
+						{"cpu": "4", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00}
+					]
+				},
+				{
+					"timestamp": {"date": "2023-06-23", "time": "09:02:17", "utc": 1, "interval": 2},
+					"cpu-load": [
+						{"cpu": "all", "user": 0.00, "nice": 0.00, "system": 90.01, "iowait": 0.00, "steal": 25.00, "idle": 90.99},
+						{"cpu": "1", "user": 0.01, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00},
+						{"cpu": "2", "user": 0.00, "nice": 0.00, "system": 90.00, "iowait": 0.00, "steal": 0.00, "idle": 10.00},
+						{"cpu": "3", "user": 0.00, "nice": 66.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00},
+						{"cpu": "4", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.01, "idle": 99.99}
+					]
+				},
+				{
+					"timestamp": {"date": "2023-06-23", "time": "09:02:19", "utc": 1, "interval": 2},
+					"cpu-load": [
+						{"cpu": "all", "user": 0.00, "nice": 20.00, "system": 55.01, "iowait": 0.00, "steal": 0.00, "idle": 25.99},
+						{"cpu": "1", "user": 70.00, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00},
+						{"cpu": "2", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00},
+						{"cpu": "3", "user": 0.00, "nice": 0.00, "system": 91.00, "iowait": 0.01, "steal": 0.00, "idle": 99.98},
+						{"cpu": "4", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00}
+					]
+				},
+				{
+					"timestamp": {"date": "2023-06-23", "time": "09:02:21", "utc": 1, "interval": 2},
+					"cpu-load": [
+						{"cpu": "all", "user": 10.00, "nice": 30.00, "system": 0.01, "iowait": 10.01, "steal": 0.00, "idle": 50.98},
+						{"cpu": "1", "user": 0.00, "nice": 0.00, "system": 65.00, "iowait": 0.00, "steal": 0.00, "idle": 35.00},
+						{"cpu": "2", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 20.00, "steal": 33.00, "idle": 48.00},
+						{"cpu": "3", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 0.01, "steal": 0.01, "idle": 99.97},
+
+						{"cpu": "4", "user": 0.00, "nice": 0.01, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 99.99}
+					]
+				},
+				{
+					"timestamp": {"date": "2023-06-23", "time": "09:02:23", "utc": 1, "interval": 2},
+					"cpu-load": [
+						{"cpu": "all", "user": 0.01, "nice": 20.00, "system": 0.01, "iowait": 20.00, "steal": 30.00, "idle": 30.99},
+						{"cpu": "1", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00},
+						{"cpu": "2", "user": 0.00, "nice": 0.00, "system": 95.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00},
+						{"cpu": "3", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00},
+						{"cpu": "4", "user": 0.00, "nice": 0.00, "system": 0.00, "iowait": 0.00, "steal": 0.00, "idle": 100.00}
+					]
+				}
+			],
+			"restarts": [
+			]
+		}
+	]
+}}

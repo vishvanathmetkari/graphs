@@ -1,0 +1,66 @@
+# Copyright 2015 PerfKitBenchmarker Authors. All rights reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+Host *
+  Protocol=2
+  UserKnownHostsFile=/dev/null
+  StrictHostKeyChecking=no
+  IdentitiesOnly=yes
+  PreferredAuthentications=publickey
+  PasswordAuthentication=no
+  ConnectTimeout=5
+  GSSAPIAuthentication=no
+  ServerAliveInterval=30
+  ServerAliveCountMax=10
+  BatchMode=yes
+
+
+Host pkb-d2dac531-0 vm0
+  HostName=10.16.104.194
+  User=pkb
+  Port=22
+  IdentityFile=/root/.ssh/id_rsa
+
+Host pkb-d2dac531-1 vm1
+  HostName=10.16.104.155
+  User=pkb
+  Port=22
+  IdentityFile=/root/.ssh/id_rsa
+
+Host pkb-d2dac531-2 vm2
+  HostName=10.16.101.159
+  User=pkb
+  Port=22
+  IdentityFile=/root/.ssh/id_rsa
+
+
+
+
+Host client-0
+  HostName=10.16.104.194
+  User=pkb
+  Port=22
+  IdentityFile=/root/.ssh/id_rsa
+
+Host client-1
+  HostName=10.16.104.155
+  User=pkb
+  Port=22
+  IdentityFile=/root/.ssh/id_rsa
+
+
+Host server-0
+  HostName=10.16.101.159
+  User=pkb
+  Port=22
+  IdentityFile=/root/.ssh/id_rsa

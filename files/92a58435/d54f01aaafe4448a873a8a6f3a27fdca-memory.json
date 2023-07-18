@@ -1,0 +1,57 @@
+{"sysstat": {
+	"hosts": [
+		{
+			"nodename": "rtp-bdw-11-2680",
+			"sysname": "Linux",
+			"release": "4.18.0-240.15.1.el8_3.x86_64",
+			"machine": "x86_64",
+			"number-of-cpus": 56,
+			"file-date": "2023-07-11",
+			"file-utc-time": "10:16:01",
+			"statistics": [
+				{
+					"timestamp": {"date": "2023-07-11", "time": "10:16:31", "utc": 1, "interval": 30},
+					"memory": {"memfree": 89412088, "avail": 125277188, "memused": 42195784, "memused-percent": 32.06, "buffers": 654416, "cached": 36860544, "commit": 4318792, "commit-percent": 3.18, "active": 4459520, "inactive": 35163080, "dirty": 200, "anonpg": 2098688, "slab": 1815484, "kstack": 14192, "pgtbl": 20072, "vmused": 0}
+				},
+				{
+					"timestamp": {"date": "2023-07-11", "time": "10:17:01", "utc": 1, "interval": 30},
+					"memory": {"memfree": 88925916, "avail": 124791140, "memused": 42681956, "memused-percent": 32.43, "buffers": 654416, "cached": 36860576, "commit": 4318792, "commit-percent": 3.18, "active": 4945272, "inactive": 35163104, "dirty": 44, "anonpg": 2584556, "slab": 1815576, "kstack": 14192, "pgtbl": 21040, "vmused": 0}
+				},
+				{
+					"timestamp": {"date": "2023-07-11", "time": "10:17:31", "utc": 1, "interval": 30},
+					"memory": {"memfree": 88457864, "avail": 124323108, "memused": 43150008, "memused-percent": 32.79, "buffers": 654416, "cached": 36860608, "commit": 4318792, "commit-percent": 3.18, "active": 5412428, "inactive": 35163116, "dirty": 76, "anonpg": 3051692, "slab": 1815508, "kstack": 14240, "pgtbl": 21932, "vmused": 0}
+				},
+				{
+					"timestamp": {"date": "2023-07-11", "time": "10:18:01", "utc": 1, "interval": 30},
+					"memory": {"memfree": 87982492, "avail": 123847752, "memused": 43625380, "memused-percent": 33.15, "buffers": 654416, "cached": 36860636, "commit": 4318792, "commit-percent": 3.18, "active": 5887252, "inactive": 35163132, "dirty": 72, "anonpg": 3526352, "slab": 1815352, "kstack": 14256, "pgtbl": 22868, "vmused": 0}
+				},
+				{
+					"timestamp": {"date": "2023-07-11", "time": "10:18:31", "utc": 1, "interval": 30},
+					"memory": {"memfree": 87504420, "avail": 123369756, "memused": 44103452, "memused-percent": 33.51, "buffers": 654416, "cached": 36860672, "commit": 4328072, "commit-percent": 3.19, "active": 6363608, "inactive": 35163208, "dirty": 20, "anonpg": 4002744, "slab": 1815484, "kstack": 14272, "pgtbl": 23796, "vmused": 0}
+				},
+				{
+					"timestamp": {"date": "2023-07-11", "time": "10:19:01", "utc": 1, "interval": 30},
+					"memory": {"memfree": 87025612, "avail": 122890976, "memused": 44582260, "memused-percent": 33.88, "buffers": 654416, "cached": 36860700, "commit": 4337248, "commit-percent": 3.19, "active": 6841636, "inactive": 35163232, "dirty": 76, "anonpg": 4480756, "slab": 1815300, "kstack": 14272, "pgtbl": 24724, "vmused": 0}
+				},
+				{
+					"timestamp": {"date": "2023-07-11", "time": "10:19:31", "utc": 1, "interval": 30},
+					"memory": {"memfree": 86464904, "avail": 122330728, "memused": 45142968, "memused-percent": 34.30, "buffers": 654416, "cached": 36860740, "commit": 4393896, "commit-percent": 3.24, "active": 7397808, "inactive": 35163280, "dirty": 100, "anonpg": 5035496, "slab": 1818524, "kstack": 14320, "pgtbl": 26016, "vmused": 0}
+				},
+				{
+					"timestamp": {"date": "2023-07-11", "time": "10:20:01", "utc": 1, "interval": 30},
+					"memory": {"memfree": 85968484, "avail": 121833912, "memused": 45639388, "memused-percent": 34.68, "buffers": 654416, "cached": 36860768, "commit": 4368616, "commit-percent": 3.22, "active": 7895348, "inactive": 35163304, "dirty": 52, "anonpg": 5534324, "slab": 1815524, "kstack": 14336, "pgtbl": 26820, "vmused": 0}
+				},
+				{
+					"timestamp": {"date": "2023-07-11", "time": "10:20:31", "utc": 1, "interval": 30},
+					"memory": {"memfree": 85481876, "avail": 121347304, "memused": 46125996, "memused-percent": 35.05, "buffers": 654416, "cached": 36860796, "commit": 4359100, "commit-percent": 3.21, "active": 8381200, "inactive": 35163304, "dirty": 20, "anonpg": 6020180, "slab": 1815380, "kstack": 14336, "pgtbl": 27776, "vmused": 0}
+				},
+				{
+					"timestamp": {"date": "2023-07-11", "time": "10:21:01", "utc": 1, "interval": 30},
+					"memory": {"memfree": 85019092, "avail": 120884588, "memused": 46588780, "memused-percent": 35.40, "buffers": 654416, "cached": 36860836, "commit": 4390724, "commit-percent": 3.23, "active": 8843384, "inactive": 35163372, "dirty": 128, "anonpg": 6482304, "slab": 1815284, "kstack": 14368, "pgtbl": 28716, "vmused": 0}
+				}
+			],
+			"restarts": [
+			]
+		}
+	]
+}}

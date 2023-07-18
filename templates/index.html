@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Utilization</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index_style.css') }}">
+</head>
+<body background="./static/img/bg3.jpg" style="background-repeat: no-repeat;background-size: cover;background-position: center;height: 100vh;background-attachment: fixed;">
+{% include 'nav_header.html' %}
+<div class="vertical-tree" style="margin-top: 4rem !important;">
+    <ul>
+        <li>
+            <a href="javascript:void(0);">Hadoop</a>
+        </li>
+        <li>
+            <a href="javascript:void(0);">MySQL</a>
+        </li>
+        <li>
+            <a href="javascript:void(0);">postgresql</a>
+                        <ul>
+                {% for folder, child_dic in nested_dict.items() %}
+                    <li><a href="javascript:void(0);">{{ folder }}</a>
+                        <ul>
+                            <li><a href="/display_graph?folder={{ folder }}">score : {{ child_dic['score'] }}  |  server_cpu_arch : {{ child_dic['server_cpu_arch'] }}</a></li>
+                        </ul>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+
+<script>
+$(function () {
+    $('.vertical-tree ul').hide();
+    $('.vertical-tree > ul').show();
+    $('.vertical-tree ul.active').show();
+    $('.vertical-tree li').on('click', function (e) {
+        var children = $(this).find('> ul');
+        if (children.is(":visible")) {
+            children.hide('fast').removeClass('active');
+        } else {
+            children.show('fast').addClass('active');
+            children.find('ul').show('fast').addClass('active');
+        }
+        e.stopPropagation();
+    });
+});
+
+
+</script>
+
+</html>
+
+
+
+

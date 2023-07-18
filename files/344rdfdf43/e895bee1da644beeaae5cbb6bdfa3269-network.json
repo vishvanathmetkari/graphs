@@ -1,0 +1,259 @@
+{"sysstat": {
+	"hosts": [
+		{
+			"nodename": "rtp-bdw-10-2680",
+			"sysname": "Linux",
+			"release": "4.18.0-240.15.1.el8_3.x86_64",
+			"machine": "x86_64",
+			"number-of-cpus": 56,
+			"file-date": "2023-07-06",
+			"file-utc-time": "11:59:30",
+			"statistics": [
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:00:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 40928.60, "txpck": 40920.07, "rxkB": 6675.85, "txkB": 5933.13, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.05},
+							{"iface": "eno1", "rxpck": 5.47, "txpck": 9.67, "rxkB": 0.38, "txkB": 1.41, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:00:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 50705.27, "txpck": 50689.00, "rxkB": 8465.55, "txkB": 7340.47, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.07},
+							{"iface": "eno1", "rxpck": 0.23, "txpck": 0.20, "rxkB": 0.03, "txkB": 0.03, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.03, "txpck": 0.03, "rxkB": 0.01, "txkB": 0.01, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:01:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 52383.37, "txpck": 52363.67, "rxkB": 8876.76, "txkB": 7577.95, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.07},
+							{"iface": "eno1", "rxpck": 0.47, "txpck": 0.47, "rxkB": 0.04, "txkB": 0.06, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:01:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 54395.60, "txpck": 54376.27, "rxkB": 9314.83, "txkB": 7862.88, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.23, "txpck": 0.20, "rxkB": 0.03, "txkB": 0.03, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.03, "txpck": 0.03, "rxkB": 0.01, "txkB": 0.01, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:02:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 54121.07, "txpck": 54099.27, "rxkB": 9305.62, "txkB": 7822.12, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.50, "txpck": 0.67, "rxkB": 0.05, "txkB": 0.10, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:02:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 54939.40, "txpck": 54916.60, "rxkB": 9491.91, "txkB": 7937.61, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.27, "txpck": 0.20, "rxkB": 0.03, "txkB": 0.03, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:03:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 54922.57, "txpck": 54908.53, "rxkB": 9497.44, "txkB": 7936.43, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.30, "txpck": 0.40, "rxkB": 0.03, "txkB": 0.06, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:03:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 56525.33, "txpck": 56506.53, "rxkB": 9774.57, "txkB": 8167.44, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.30, "txpck": 0.23, "rxkB": 0.03, "txkB": 0.04, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:04:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 52752.73, "txpck": 52732.67, "rxkB": 9161.43, "txkB": 7620.22, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.37, "txpck": 0.37, "rxkB": 0.04, "txkB": 0.06, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:04:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 55289.13, "txpck": 55259.20, "rxkB": 9583.25, "txkB": 7986.04, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.20, "txpck": 0.20, "rxkB": 0.03, "txkB": 0.03, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:05:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 2554.00, "txpck": 2558.23, "rxkB": 434.86, "txkB": 369.03, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno1", "rxpck": 6.93, "txpck": 7.67, "rxkB": 0.46, "txkB": 1.06, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:05:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 48089.30, "txpck": 48073.83, "rxkB": 7960.50, "txkB": 6965.83, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.07},
+							{"iface": "eno1", "rxpck": 2.57, "txpck": 2.90, "rxkB": 0.18, "txkB": 0.43, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:06:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 53327.33, "txpck": 53309.83, "rxkB": 8972.72, "txkB": 7718.77, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.07},
+							{"iface": "eno1", "rxpck": 0.33, "txpck": 0.30, "rxkB": 0.03, "txkB": 0.05, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:06:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 56270.33, "txpck": 56259.77, "rxkB": 9596.83, "txkB": 8139.48, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.37, "txpck": 0.30, "rxkB": 0.04, "txkB": 0.05, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:07:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 54882.17, "txpck": 54868.17, "rxkB": 9421.60, "txkB": 7935.05, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.57, "txpck": 0.50, "rxkB": 0.05, "txkB": 0.08, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:07:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 54208.10, "txpck": 54194.70, "rxkB": 9352.08, "txkB": 7835.75, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.33, "txpck": 0.30, "rxkB": 0.03, "txkB": 0.05, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:08:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 53852.50, "txpck": 53837.40, "rxkB": 9308.42, "txkB": 7782.92, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.37, "txpck": 0.33, "rxkB": 0.04, "txkB": 0.05, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:08:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 55042.13, "txpck": 55024.33, "rxkB": 9526.68, "txkB": 7955.16, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.08},
+							{"iface": "eno1", "rxpck": 0.37, "txpck": 0.33, "rxkB": 0.04, "txkB": 0.05, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:09:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 45904.07, "txpck": 45895.07, "rxkB": 7952.89, "txkB": 6633.32, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.07},
+							{"iface": "eno1", "rxpck": 0.43, "txpck": 0.33, "rxkB": 0.05, "txkB": 0.05, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:09:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 51875.43, "txpck": 51855.27, "rxkB": 9015.94, "txkB": 7494.71, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.07},
+							{"iface": "eno1", "rxpck": 0.40, "txpck": 0.37, "rxkB": 0.05, "txkB": 0.06, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:10:00", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 46135.33, "txpck": 46124.33, "rxkB": 8006.14, "txkB": 6666.02, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.07},
+							{"iface": "eno1", "rxpck": 1.90, "txpck": 1.97, "rxkB": 0.13, "txkB": 0.28, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-06", "time": "12:10:30", "utc": 1, "interval": 30},
+					"network": {
+						"net-dev": [
+							{"iface": "ens1", "rxpck": 3.37, "txpck": 2.93, "rxkB": 0.22, "txkB": 0.20, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "eno1", "rxpck": 6.80, "txpck": 99.43, "rxkB": 0.53, "txkB": 143.82, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.12},
+							{"iface": "eno2", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				}
+			],
+			"restarts": [
+			]
+		}
+	]
+}}

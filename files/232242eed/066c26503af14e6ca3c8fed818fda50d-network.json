@@ -1,0 +1,212 @@
+{"sysstat": {
+	"hosts": [
+		{
+			"nodename": "wo-sn-3107",
+			"sysname": "Linux",
+			"release": "5.4.17-2136.304.4.3.el8uek.aarch64",
+			"machine": "aarch64",
+			"number-of-cpus": 16,
+			"file-date": "2023-07-04",
+			"file-utc-time": "06:22:33",
+			"statistics": [
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:35", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 3.00, "rxkB": 54.00, "txkB": 6.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 32.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 3.00, "txpck": 3.50, "rxkB": 3.17, "txkB": 2.38, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 43.00, "txkB": 66.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 8.00, "rxkB": 5.00, "txkB": 77.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 4.00, "rxcmp": 3.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:37", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 1.00, "rxkB": 0.00, "txkB": 6.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 33.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 12.50, "txpck": 13.00, "rxkB": 5.40, "txkB": 4.80, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 4.00, "rxkB": 44.00, "txkB": 56.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 6.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 8.00, "txkB": 44.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:39", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 11.00, "txkB": 6.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 2.00, "txkB": 8.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 12.00, "txpck": 15.00, "rxkB": 9.31, "txkB": 4.34, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 32.00, "txkB": 55.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 5.00, "txkB": 11.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 22.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:41", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 3.50, "txpck": 6.00, "rxkB": 22.90, "txkB": 0.77, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:43", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 44.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 10.00, "txpck": 11.00, "rxkB": 1.50, "txkB": 2.14, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:45", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 10.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 5.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 14.50, "txpck": 12.00, "rxkB": 3.20, "txkB": 6.54, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 11.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 22.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:47", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB":4.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 29.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 21.50, "txpck": 24.50, "rxkB": 9.11, "txkB": 6.05, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 33.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 40.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:49", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 55.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 21.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 8.50, "txpck": 8.00, "rxkB": 2.47, "txkB": 3.30, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:51", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 33.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 5.00, "txpck": 6.50, "rxkB": 2.74, "txkB": 2.67, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 11.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 55.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:53", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 10.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 20.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 8.00, "txpck": 9.50, "rxkB": 4.86, "txkB": 2.85, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 30.00, "txkB": 10.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 50.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:55", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 33.00, "txkB": 44.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 3.50, "txpck": 3.50, "rxkB": 1.54, "txkB": 0.80, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 33.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:57", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 22.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 22.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 31.50, "txpck": 39.00, "rxkB": 17.10, "txkB": 36.05, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 22.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 2.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:22:59", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB":5.00, "txkB": 5.00, "rxcmp": 5.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 18.50, "txpck": 20.00, "rxkB": 10.90, "txkB": 10.26, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB":66.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 22.00, "txkB": 22.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:23:01", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 33.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 7.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 16.50, "txpck": 18.50, "rxkB": 5.87, "txkB": 4.44, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 9.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 22.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				},
+				{
+					"timestamp": {"date": "2023-07-04", "time": "06:23:03", "utc": 1, "interval": 2},
+					"network": {
+						"net-dev": [
+							{"iface": "lxdbr0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 22.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "docker0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "enp0s3", "rxpck": 14.00, "txpck": 13.00, "rxkB": 2.91, "txkB": 3.17, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "cni-podman0", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "veth4afaa065", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 10.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00},
+							{"iface": "lo", "rxpck": 0.00, "txpck": 0.00, "rxkB": 0.00, "txkB": 0.00, "rxcmp": 0.00, "txcmp": 0.00, "rxmcst": 0.00, "ifutil-percent": 0.00}
+						]
+					}
+				}
+			],
+			"restarts": [
+			]
+		}
+	]
+}}

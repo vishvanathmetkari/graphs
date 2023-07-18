@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Utilization</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+{% include 'nav_header.html' %}
+{% include 'navbar.html' %}
+    <div id="cpu_heatmap" style="margin-top: 55px">
+        {{ cpu_heatmap |safe }}
+    </div>
+    <div id="cpu_line_graph">
+        {{ cpu_line_graph |safe }}
+    </div>
+    <div id="network_line">
+        {{ network_line_graphHTML|safe }}
+    </div>
+    <div id="disk_line">
+        {{ disk_line_graphHTML|safe }}
+    </div>
+    <div id="memory_line">
+        {{ memory_line_graphHTML|safe }}
+    </div>
+</body>
+</html>
